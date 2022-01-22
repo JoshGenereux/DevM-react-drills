@@ -1,1 +1,21 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.input{
+    margin-top: 10vh;
+    background: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px lightgray;
+}
+
+.p {
+    font-size: 5vh;
+    color: #5f3db2;
+    font-weight: bolder;
+
+}

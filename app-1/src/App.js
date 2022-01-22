@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import './App.css';
 
 function App() {
-  const [input, setInput] = useState('hello')
+  const [input, setInput] = useState('Write some text...')
 
   const handleChange =(e) =>{
       setInput(e.target.value)
@@ -11,8 +11,10 @@ function App() {
   return (
     <div className="App">
       <form>
-        <input onChange={(e)=>handleChange(e)}/>
-        <p>{input}</p>
+        <input
+            className='input'
+            onChange={(e)=>handleChange(e)}/>
+        <p className='p'>{input}</p>
       </form>
     </div>
   );
